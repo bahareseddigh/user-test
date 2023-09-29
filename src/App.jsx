@@ -30,7 +30,7 @@ function App(){
     ]
     return(
         <>
-        {users.map( user => <Box {...user} />)}
+        {users.map( user => <Box key={user.id} {...user} />)}
         </>
     )
 }
