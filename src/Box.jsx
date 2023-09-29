@@ -1,3 +1,4 @@
+import './Box.css'
 function Box(){
     return(
         <>
