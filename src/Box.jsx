@@ -1,11 +1,11 @@
 import './Box.css'
-function Box(){
+function Box({firstName , lastName , age}){    
     return(
         <>
         <div className="box">
-            <p>first name : milad</p>
-            <p>last name : bahrami</p>
-            <p>age : 26</p>
+            <p>first name : {firstName}</p>
+            <p>last name : {lastName}</p>
+            <p>age : {age}</p>
         </div>
         </>
     )
